@@ -1,0 +1,340 @@
+html, body {
+height: 100%;
+    width: 100%;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%,     rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+
+
+    /* Customize the font, size, and color for text*/
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /* Adjust the padding and margins */
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+
+}
+
+
+/*
+  Style Text: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+h1 {
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 50px;
+text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+
+}
+
+p {
+text-align: left;
+}
+
+a {
+
+}
+
+
+/*
+  Style Lists: Styles added to the ol or ul style rulesets affect the entire
+  list, while styles added to the li style ruleset affect individual list items
+*/
+
+
+ol {
+
+}
+
+ol li {
+
+}
+
+
+ul {
+list-style:square;
+}
+
+ul li {
+
+}
+/* link pseudo-classes */
+a:link{
+  color: white;
+}
+a:visited {
+  color: #780B4E;
+}
+a:hover {
+  color: #b0076a;
+}
+a:active {
+  color: black;
+}
+
+/*
+  Style Buttons: Add style rules for any headings (h1-6),
+  paragraphs and links
+*/
+
+.button-1{
+  background-color:  #b0076a;
+  border: none;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px 32px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.button-2{
+  background-color:  #b0076a;
+  border: none;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+  padding: 15px 32px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.button-1:hover, .button-2:hover {
+  color: #780B4E;
+}
+#header-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+/* display: flex;
+flex-direction: row;
+text-align: center;
+padding-top: 50px;
+margin-right: 200px;
+margin-left: 150px;
+
+/* Select and style elements by class name or ID */
+
+
+
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+#header-item {
+display: flex;
+width: auto;
+text-align: center;
+justify-content: center;
+background-color:  #b0076a;
+border: none;
+cursor: pointer;
+border-radius: 10px;
+
+}
+/*#header
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+/* .header-item:nth-of-type(2) {
+width: auto;
+text-align: left;
+margin-left: 1000px;
+}
+*/
+
+
+
+#header-img {
+margin-left: 0px;
+margin-right: 225px;
+max-width: 100%;
+  
+}
+.header-button {
+  cursor: pointer;
+  text-align: left;
+}
+/* Part 1: Navbar */
+
+/* General style rule set for all items in ul */
+.navbar ul {
+    list-style: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* Style rule set for individual li */
+.navbar ul li {
+    float: left;
+    margin: 10px;
+}
+
+
+/* Style rule set for individual li link */
+.navbar ul li a {
+    font-family: Arial;
+    color:white;
+    font-size: 17px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Style rule set for hovered link */
+.navbar ul li a:hover {
+    font-weight: bold;
+}
+
+
+
+
+/* Part 2: Flexbox */
+
+/* General style rule set for flex container */
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+/* Style rules for flex-item 1 */
+.flex-item:nth-of-type(1) {
+
+}
+
+/* Style rules for flex-item 2 */
+.flex-item:nth-of-type(2) {
+
+}
+
+/* Style rules for flex-item 3 */
+.flex-item:nth-of-type(3) {
+
+}
+
+
+/* Style set for all flex-items */
+.flex-item {
+    background: white;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+#theme-button {
+background-image: url("3294611.png");
+background-position:center;
+background-repeat:no-repeat;
+}
+
+/* Customize Dark Mode Theme */
+.dark-mode {
+    position: ;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(9, 94, 152);
+    background: linear-gradient(90deg, rgba(9, 94, 152, 1) 8%, rgba(20, 33, 143, 1) 50%, rgba(53, 13, 84, 1) 100%);
+
+}
+
+.petition-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.petition-para {
+  width: 55%;
+  padding-right: 10px;
+}
+.signatures {
+  width: 45%;
+  padding-right: 10px;
+}
+.error {
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  background:pink;
+}
+.revealable {
+  position: relative;
+  opacity: 0;
+  transform: translateY(0); /* Keep the transform property if needed */
+  transition: opacity 2s ease, transform 2s ease; /* Separate transition for opacity */
+
+}
+.active {
+  transform: translateY(0px);
+  opacity: 1;
+  transition: all 2s ease;
+}
+/* the modal that covers the background and prevents user interactions */
+.modal {
+  display: none; /* hides the modal from view by default*/
+  position: fixed; /* keeps the modal in one place */
+  z-index: 2; /* positions the modal on top of all other elements on the screen */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgba(0,0,0,0.4); /* 40% opacity black - other elements can still be seen */
+  flex-direction: column; /* these flexbox rules center the content on the screen */
+  align-items: center;
+  justify-content: center;
+}
+
+/* box that contains all the content and images */
+.modal-content {
+  background-color: palevioletred; /* update the colors and font sizes as you like */
+  color: black;
+  text-align: center;
+  font-size: 3rem;
+  display: flex; /* adds flexbox to center all items */
+  justify-content: center;
+  align-items: center;
+}
+
+#thanks-modal-content {
+  width: 20rem; /* sets a default width for the text container */
+}
+
+#modal-text-container {
+  display: flex; /* adds flexbox to center the text and buttons (stretch feature) */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
