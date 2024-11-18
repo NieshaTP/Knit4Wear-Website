@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<link rel="stylesheet" href="style.css">
+<!-- the content here will only show in the tab and in the metadata about the page -->
+ <title>Knit4Good</title>
+ <link rel="icon" href="pngimg.com - yarn_PNG23.png">
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="reset.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="reset-webview.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+  <div class="header-container">
+    <div id="header">
+    <h1> Knit4Good </h1>
+     <h3>Creating change one stitch at a time</h3>
+    </div>
+  </div>
+  <div id="header-buttons">
+    <button class="button button-1">Tutorials</button>
+    <button class="button button-2">Local Donation Centers</button>
+  </div>
+
+  <body>
+  <!-- Part 1: Navbar Starter Code -->
+
+  <div class="navbar">
+    <ul>
+      <li><a href="#">Impact</a></li>
+      <li><a href="#">For Sponsors</a></li>
+      <li><a href="#">For Advocates</a></li>
+      <li><a href="#">About</a></li>
+      <li ><button id="theme-button">Toggle Dark Mode</button></li>
+      <!-- Stretch Challenge: Drop Down -->
+    </ul>
+  </div>
+
+
+
+  <!-- Part 2: Flexbox Layout Stater Code -->
+
+  <div class="container">
+    <div class="item"></div>
+    <div class="item"></div>
+    <div class="item"></div>
+  </div>
+
+    <!--- About --->
+    <h2>  What's Knit4Good?</h2>
+    <p> As homelessness grows in the country, people effected aren't alloted proper resources to survive. From food to clothes, the needs of homeless people aren't met, leading to them being stuck. But with Knit4Good, it closes the gap and allows for people in need to be warm, secure, and confident to push beyond their circumstances.
+    </p>
+
+
+    <!--- Data --->
+<div class= "data revealable">
+    <h2>Homelessness in the US</h2>
+    <img src="statistic_id727036_number-of-chronically-homeless-people-in-the-us-by-family-status-2011-2020-1.png" height="300" width="400" />
+  <p> According to the US Department of Housing and Urban Development, the amount of chronically homeless people in the US hasn't drastically changed over the past 9 years. Chronic homelessness is defined to be a person homeless for a year or more. The questions needed to be asked is why hasn't the amount go down, and how can the US finally reduce the amount of chronically homeless people? That's where Knit4Wear comes in.</p>
+</div>
+<div class = "info revealable">
+  <img src="kisspng-sweater-christmas-jumper-cardigan-clip-art-sweater-cliparts-5ab379e97f41d4.2280477015217115935213.png" height="200" width="200"/>
+  <p> With Knit4 Wear, you'll be able to contribute to the fight against homelessness whilst learning a new hobby! </p>
+</div>   
+    <div class="petition revealable" id="petition">
+
+        <h2>Sign Our Petition 📢</h2>
+        <div class="petition-container">
+
+          <div class="petition-para">
+            <p>Having clothes to wear regardless of the climate is an intrinsic human right. To be able to be warm, comfortable, and most importantly safe would improve the quality of homelessness by dividends. This issue isn't simply about conquering homelessness; it's about protecting the human rights of the people around us. So join us in this cause by signing the petition below!</p>
+          </div>
+
+          <div class="signatures">
+            <p>🖊️ DJ from Brooklyn supports this.</p>
+            <p>🖊️ Amy from Queens supports this.</p>
+            <p>🖊️ Teresa from Phoenix supports this.</p>
+          </div>
+          <div class="signatures">
+            <!-- signatures go here -->
+          </div>
+        </div>
+
+      <!--- Sign Petition Form --->
+      <form id="sign-petition" title="sign-petition">
+        <label for="name">Name: </label>
+        <input type="text" id="name-input">
+        <label for="hometown"> Hometown: </label>
+        <input type="text" id="hometown-input">
+        <label for="email">Email: </label>
+        <input type="text" id="email-input">
+        <button id="sign-now-button">Sign Now</button>
+      </form>
+
+
+    </div>
+    <script src="script.js"></script>
+    <div id="thanks-modal" class="modal">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div id="modal-text-container">
+          <p id="thanks-content-modal"> Thank you! </p>
+          <!-- button here (stretch feature) -->
+        </div>
+        <!-- image here-->
+        <img id="modal-image" src ="25297.png"/>
+      </div>
+
+    </div>
+    
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
